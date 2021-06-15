@@ -3,13 +3,8 @@ package liubei.juc.socket_thread;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
 
 public class SingleThreadServerSocket {
-
-    private static final int NTHREADS = 100;
-    private static final Executor executor = Executors.newFixedThreadPool(NTHREADS);
 
     public static void main(String[] args) {
         try {
