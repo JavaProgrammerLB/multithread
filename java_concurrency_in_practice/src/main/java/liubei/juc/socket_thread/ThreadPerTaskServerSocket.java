@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class ThreadPerTaskWebServer {
+public class ThreadPerTaskServerSocket {
 
     public static void main(String[] args) throws IOException {
         ServerSocket socket = new ServerSocket(8080);
